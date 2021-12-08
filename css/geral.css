@@ -1,0 +1,11 @@
+body{
+   /* background-color: #1f1e1e;*/
+    font-family: 'Outfit', sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    padding: 0 2%;
+    display: flex;
+}

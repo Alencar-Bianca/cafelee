@@ -1,0 +1,19 @@
+p.main-para{
+    color: #fff;
+    font-weight: lighter;
+  
+}
+.-small{
+    font-size: 18px;
+    margin-top: 2px;
+}
+p.main-para.-small:nth-of-type(1){
+    margin-right: 20px;
+}
+.pnav{
+    margin: 0 15px;
+    
+}
+.pnav .aHeader{
+    font-weight: bold;
+}

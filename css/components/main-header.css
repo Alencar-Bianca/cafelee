@@ -1,0 +1,34 @@
+header.main-header{
+    background-color: #1f1e1e;
+    padding: 25px;
+}
+header .blind{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    color: #ffba00;
+    font-size: 25px;
+    margin-right: 5px;
+}
+.icon:hover{
+    color: #fff;
+}
+.imgHeader{
+    margin: 0 15px;
+}
+.aHeader{
+    color: #fff;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.aHeader:hover{
+    color: #ffba00;
+}
+.navHeader{
+    background-color: #1f1e1ed2;
+    padding: 25px;
+}
+.ulNav{
+    display: flex;
+}
