@@ -1,0 +1,21 @@
+.main-product{
+    background-color: #ebe9eb;
+}
+.productContainer{
+    width: 100%;
+    display: flex;
+}
+.singleproduct{
+    width: 585px;
+    height: 383px;
+    margin-top:  45px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.singleproduct.img1{
+    background-image: url('../../img/Sub-banner-01.jpg');
+    margin-right: 50px;
+}
+.singleproduct.img2{
+    background-image: url('../../img/Sub-banner-02.jpg');
+}

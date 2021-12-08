@@ -21,6 +21,9 @@
     left: 50%;
     transform: translate(-50%,-50%);
 }
+.bntBanner:hover{
+    background-color: #af6817;
+}
 .main-banner .aBanner{
     text-decoration: none;
     color: #fff;
