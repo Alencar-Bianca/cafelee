@@ -11,6 +11,8 @@
     margin-top:  45px;
     background-repeat: no-repeat;
     border-radius: 15px;
+    position: relative;
+    padding-top: 50px;
 }
 .singleproduct.img1{
     background-image: url('../../img/Sub-banner-01.jpg');
@@ -18,4 +20,15 @@
 }
 .singleproduct.img2{
     background-image: url('../../img/Sub-banner-02.jpg');
+}
+.aProduct{
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    top: 58%;
+    left: 5%;
+    font-weight: bolder;
+}
+.aProduct:hover{
+    color: #ffba00;
 }
