@@ -15,6 +15,19 @@
 .imgFeatured{
     height: 280px;
 }
+.bntFeatured{
+    background-color: #ffba00;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 8px;
+    position: relative;
+}
+.aFeatured{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
 /*
 #######################
 */
@@ -26,5 +39,15 @@
     .single-featured{
         margin-left: 5px;
         margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .single-featured{
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+    .imgFeatured{
+        height: 200px;
     }
 }
