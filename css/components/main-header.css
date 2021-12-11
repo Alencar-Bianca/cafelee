@@ -32,3 +32,16 @@ header .blind{
 .ulNav{
     display: flex;
 }
+/*
+##########################################################################
+*/
+@media screen and (max-width: 748px){
+    header.main-header .container{
+        justify-content: center;
+    }
+    header .blind, .ulNav{
+        display: none;
+        align-items: center;
+    }
+    
+}

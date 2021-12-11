@@ -13,10 +13,19 @@
     border-radius: 15px;
     position: relative;
     padding-top: 50px;
+    transition: all 0.5s;
+
+    
 }
 .singleproduct.img1{
     background-image: url('../../img/Sub-banner-01.jpg');
     margin-right: 50px;
+    
+}
+.singleproduct:hover  {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.05);
 }
 .singleproduct.img2{
     background-image: url('../../img/Sub-banner-02.jpg');
@@ -31,4 +40,27 @@
 }
 .aProduct:hover{
     color: #ffba00;
+}
+/*
+##########################################################################
+*/
+@media screen and (max-width: 840px){
+    .productContainer{
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    .singleproduct{
+        width: 100%;
+        max-width: 450px;
+        overflow: hidden;
+
+    }
+    .singleproduct.img1{
+        margin-right: 0;
+    }
+    .singleproduct.img2{
+        margin-top: -50px;
+    }
+  
 }
