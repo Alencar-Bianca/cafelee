@@ -1,0 +1,30 @@
+.main-featured{
+    background-color: #66554a;
+}
+.main-featured .container{
+    display:  block;
+    padding: 20px;
+}
+.containerFeatured{
+    padding: 15px;
+    display: flex;
+}
+.single-featured{
+    margin-left: 15px;
+}
+.imgFeatured{
+    height: 280px;
+}
+/*
+#######################
+*/
+@media screen and (max-width: 1000px){
+    .containerFeatured{
+         justify-content: center;
+        flex-wrap: wrap;
+    }
+    .single-featured{
+        margin-left: 5px;
+        margin-top: 25px;
+    }
+}

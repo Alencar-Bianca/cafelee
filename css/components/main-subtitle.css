@@ -4,3 +4,9 @@ h2.main-subtitle{
     color: #fff;
     font-weight:100;
 }
+.single-featured h2{
+    text-align: left;
+}
+h2.sizeFeatured{
+    font-size: 25px;
+}
