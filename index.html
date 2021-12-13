@@ -19,27 +19,27 @@
     <link rel="stylesheet" href="css/components/main-banner.css">
     <link rel="stylesheet" href="css/components/main-product.css">
     <link rel="stylesheet" href="css/components/main-featured.css">
+    <link rel="stylesheet" href="css/components/main-desc.css">
 
 </head>
 <body>
     <main>
+        <div class="escurece"></div>
         <header class="main-header">
             <div class="container">
                 <div class="blind">
                     <ion-icon class="icon" name="car-outline"></ion-icon><p class="main-para -small "><a class="aHeader" href="#">Free Shipping </a></p>
-                
+    
                     <ion-icon class="icon" name="diamond-outline"></ion-icon><p class="main-para -small"><a class="aHeader" href="#">Special Offer</a></p>
                 </div>
                 <img class="imgHeader" src="img/logo.png" alt="Logo Cafelee" title="Logo Cafelee">
-
                 <div class="blind">
                     <ion-icon class="icon" name="person-outline"></ion-icon><p class="main-para -small "><a class="aHeader" href="#">Sign In & Join Free</a></p>
-                
+    
                     <ion-icon class="icon" name="cart-outline"></ion-icon><p class="main-para -small"><a class="aHeader" href="#">My Cart</a></p>
                 </div>
             </div>
         </header>
-
         <nav class="navHeader">
             <div  class="container">
                 <ul class="ulNav">
@@ -70,7 +70,7 @@
                 </ul>
             </div>
         </nav>
-        <section class="main-banner">
+        <section  class="main-banner">
             <div class="container">
                 <div class="blindBanner">
                     <h2 class="main-subtitle">Ger Best Discount On All Flavour</h2>
@@ -105,23 +105,34 @@
                         <img class="imgFeatured" src="img/kindly.jpg" alt="kindly">
                         <h2 class="main-subtitle sizeFeatured">Cranberry juice</h2>
                         <p class="main-para ">$ 98.00</p>
-                        <button class="bntFeatured" type="submit"><p class="main-para pnav"><a class="aFeatured" href="#">BUY</a></p></button>
-                    </div>
+                        <button id="bnt-juice" class="bntFeatured" type="submit"><p class="main-para pnav"><a class="aFeatured" href="#">BUY</a></p></button>
 
+                        <div id="kindly" class="main-desc">
+                            <span class="close">X</span>
+                            <h2 class="main-subtitle subDesc sizeFeatured">Cranberry juice</h2>
+                            <div class="containerDesc">
+                                <img class="imgDesc" src="img/kindly.jpg" alt="kindly">
+                                <p class="main-para pDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, nemo fuga rerum qui recusandae facilis, eos totam ipsam cumque explicabo, harum repudiandae. Unde nulla quae esse fugit minus cumque veniam.
+                                Autem modi in nostrum error, porro et ipsam, repudiandae facere est iste quos? Animi non, asperiores laudantium vel saepe porro assumenda? Exercitationem soluta dolores, cupiditate fuga hic placeat.
+                                Autem modi in nostrum error, porro et ipsam, repudiandae facere est iste quos? Animi non, asperiores laudantium vel saepe porro assumenda? Exercitationem soluta dolores, cupiditate fuga hic placeat.
+                                Autem modi in nostrum error, porro et ipsam, repudiandae facere est iste quos? Animi non, asperiores laudantium vel saepe porro assumenda? Exercitationem soluta dolores, cupiditate fuga hic placeat.</p>
+                            </div>
+                            <div class="bntDesc"><button class="bntFeatured bDesc" type="submit"><p class="main-para pnav"><a class="aFeatured" href="#">BUY</a></p></button></div>
+                        </div>
+                    </div>
+    
                     <div class="single-featured">
                         <img class="imgFeatured" src="img/shake.jpg" alt="shake">
                         <h2 class="main-subtitle sizeFeatured">Frozen fruit</h2>
                         <p class="main-para ">$ 100.00</p>
                         <button class="bntFeatured" type="submit"><p class="main-para pnav"><a class="aFeatured" href="#">BUY</a></p></button>
                     </div>
-
                     <div class="single-featured">
                         <img class="imgFeatured" src="img/trilofy.jpg" alt="shake">
                         <h2 class="main-subtitle sizeFeatured">Enoki Mushroom</h2>
                         <p class="main-para ">$ 98.00</p>
                         <button class="bntFeatured" type="submit"><p class="main-para pnav"><a class="aFeatured" href="#">BUY</a></p></button>
                     </div>
-
                     <div class="single-featured">
                         <img class="imgFeatured" src="img/co.jpg" alt="shake">
                         <h2 class="main-subtitle sizeFeatured">Ornare sed consequat</h2>
@@ -129,11 +140,28 @@
                         <button class="bntFeatured" type="submit"><p class="main-para pnav"><a class="aFeatured" href="#">BUY</a></p></button>
                     </div>
                 </div>
-                
+    
+            </div>
+        </section>
+
+        <section class="main-product">
+            <div class="container">
+                <div class="productContainer">
+                    <div class="singleproduct img1">
+                        <h1 class="main-title">Cafee</h1>
+                        <h2 class="main-subtitle">Macchiato</h2>
+                        <p><a class="aProduct" href="#">ORDER NOW</a></p>
+                    </div>
+                    <div class="singleproduct img2">
+                        <h1 class="main-title">Sweet</h1>
+                        <h2 class="main-subtitle">Cappuccino</h2>
+                        <p><a class="aProduct" href="#">ORDER NOW</a></p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-    </main>
+
     <script src="js/js.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

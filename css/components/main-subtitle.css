@@ -10,3 +10,10 @@ h2.main-subtitle{
 h2.sizeFeatured{
     font-size: 18px;
 }
+h2.subDesc{
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin:  15px 0;
+}
