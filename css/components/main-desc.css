@@ -10,7 +10,8 @@
     z-index: 1;
     padding: 0 2%;
     border-radius: 5px;
-    overflow: auto;
+    overflow-x: hidden; 
+    overflow-y: auto;
 }
 .imgDesc{
     width: 300px;
@@ -42,6 +43,37 @@
     display: block;
     
 }
-.no{
-    display: none;
+
+@media screen and (max-width: 750px){
+
+    .containerDesc{
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .imgDesc{
+        width: 250px;
+        margin-bottom: 15px;
+     
+    }
+}
+
+@media screen and (max-width: 352px){
+    .main-desc{
+        overflow-x: hidden;   
+    }
+    h2.subDesc{ 
+        margin:  40px 0;
+    }
+    .close{
+        font-size: 30px;
+        font-weight: bold;
+        color: #fff;
+        position: absolute;
+        right: 0;
+        top: 5px;
+        cursor: pointer;
+        display: block;
+        
+    }
 }

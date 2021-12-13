@@ -23,8 +23,6 @@ p.main-para.-small:nth-of-type(1){
 p.pDesc{
     font-size: 18px;
     color: #000000;
-
     line-height: 30px;
-    text-align: justify;
     margin-left: 10px;
 }
