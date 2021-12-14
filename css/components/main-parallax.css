@@ -9,17 +9,55 @@
 }
 .main-parallax .container .tag,.main-parallax .container .main-subtitle{
     margin-bottom: 35px;
+   
 }
-
 .main-parallax .container{
     display: block;
     padding-top: 70px;
 }
 .contentParallax{
     background-color: #000;
-    height: 150px;
 }
+.contentParallax .container{
+    align-items: center;
+    padding: 25px;
+    
+}
+.divParallax {
+    margin-left: 15px;
+}
+.divParallax .main-subtitle {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.containerImg{
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.containerImg:hover{
+    background-color: #ffba00;
+    cursor: pointer;
+}
+.imgParallax{
+    width: 40px;
+}
+@media screen and (max-width: 840px){
+    .contentParallax .container{
+        display: block;
+        text-align: center;
+       
+    }
+    .containerImg{
 
+        margin:15px auto;
+       
+    }
+}
 @media screen and (max-width: 320px){
     .main-parallax .container .tag{
         width: 150px;
