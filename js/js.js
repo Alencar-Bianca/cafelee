@@ -79,3 +79,5 @@ function closeC(){
 closeCo.addEventListener("click",()=>{
     closeC();
 })
+/************************************************************************* */
+/*MENU */

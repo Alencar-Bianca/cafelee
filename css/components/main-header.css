@@ -31,6 +31,32 @@ header .blind{
 }
 .ulNav{
     display: flex;
+
+}
+.NabMobile{
+    display: none;
+    background-image: url('../../img/menu.png');
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+
+}
+.mobile{
+      display: none;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 22px;
+    width: 100%;
+}
+.mobile li{
+    margin-bottom: 15px;
+    width: 100%;
+}
+.mobile .aHeader:hover{
+    display: block;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff
 }
 /*
 ##########################################################################
@@ -42,6 +68,13 @@ header .blind{
     header .blind, .ulNav{
         display: none;
         align-items: center;
+    }
+    .NabMobile{
+        display: block;
+    }
+    .mobile{
+        display: block;
+       
     }
     
 }

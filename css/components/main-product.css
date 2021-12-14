@@ -1,6 +1,7 @@
 .main-product{
     background-color: #ebe9eb;
 }
+
 .productContainer{
     width: 100%;
     display: flex;
@@ -43,11 +44,13 @@
 }
 .singleproduct.img3{
     background-image: url('../../img/Cms-banner-01.jpg');
+
     margin-right: 50px;
     
 }
 .singleproduct.img4{
     background-image: url('../../img/Cms-banner-02.jpg');
+
     margin-right: 50px;
     
 }
