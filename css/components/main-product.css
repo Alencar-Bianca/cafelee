@@ -41,6 +41,31 @@
 .aProduct:hover{
     color: #ffba00;
 }
+.singleproduct.img3{
+    background-image: url('../../img/Cms-banner-01.jpg');
+    margin-right: 50px;
+    
+}
+.singleproduct.img4{
+    background-image: url('../../img/Cms-banner-02.jpg');
+    margin-right: 50px;
+    
+}
+.-black{
+    color: #000 !important;
+}
+p.-brown{
+    color: #995c31 !important;
+    font-size: 30px ;
+}
+.-lf{
+
+    margin-left: 200px;
+}
+.moveProduct {
+    margin-left: 190px;
+    
+}
 /*
 ##########################################################################
 */
