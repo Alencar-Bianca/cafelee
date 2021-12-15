@@ -81,3 +81,11 @@ closeCo.addEventListener("click",()=>{
 })
 /************************************************************************* */
 /*MENU */
+const bntMenu = document.querySelector(".NabMobile");
+
+function toggleMenu(){
+    const bntMenu = document.querySelector(".mobile");
+    bntMenu.classList.toggle('active')
+}
+
+bntMenu.addEventListener('click',toggleMenu);

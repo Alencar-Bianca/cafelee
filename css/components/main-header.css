@@ -73,8 +73,24 @@ header .blind{
         display: block;
     }
     .mobile{
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 140px;
+        left: 0;
+        z-index: 1;
+        background-color: #474646;
+        padding: 5px;
+     
+    }
+    ul.active{
         display: block;
-       
+    }
+    li .aHeader{
+        padding: 5px 0;
+        margin: 0 1rem;
+        display: block;
+        border-bottom: 1px solid rgba(255,255,0,0.5)
     }
     
 }
